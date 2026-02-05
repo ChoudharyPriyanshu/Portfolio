@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  /* Permanent Dark Theme Variables */
+  --color-primary: #f3f4f6;
+  /* Light Gray for text */
+  --color-secondary: #242423;
+  /* Dark Charcoal Background */
+  --color-accent: #CF9868;
+  /* Gold Accent */
+  --color-accent-light: #b08055;
+  --color-surface: #2d2d2c;
+  /* Dark Surface for cards */
+  --color-surface-hover: #363635;
+
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  /* Removed display: flex and place-items: center to fix navbar alignment */
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar Styling - Updated for Light Theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  /* Light gray thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+/* Utility classes for theme */
+.text-skin {
+  color: var(--color-accent);
+}
+
+.bg-skin {
+  background-color: var(--color-accent);
+}
+
+.border-skin {
+  border-color: var(--color-accent);
+}
