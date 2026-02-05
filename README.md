@@ -151,9 +151,9 @@ netlify deploy --prod
 
 - Full-stack MERN Developer
 - Email: cpriyanshu211@gmail.com
-- Portfolio: [Your Live Portfolio URL]
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
+- Portfolio: 
+- LinkedIn: https://www.linkedin.com/in/priyanshu-choudhary-7936a4296/
+- GitHub: https://github.com/ChoudharyPriyanshu
 
 ## ⭐ Show Your Support
 
