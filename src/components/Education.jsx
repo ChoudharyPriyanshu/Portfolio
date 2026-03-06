@@ -33,7 +33,7 @@ const Education = () => {
                                 </span>
                             </div>
                             <div className="mb-4">
-                                <span className="text-2xl font-bold text-gray-100">8.59</span>
+                                <span className="text-2xl font-bold text-gray-100">8.50</span>
                                 <span className="text-gray-400 text-sm ml-2">CGPA</span>
                             </div>
                             <p className="text-gray-300 text-sm leading-relaxed">
@@ -55,6 +55,27 @@ const Education = () => {
                         </h2>
 
                         <div className="space-y-6">
+                             <motion.div
+                                whileHover={{ scale: 1.02 }}
+                                transition={{ duration: 0.2 }}
+                                className="bg-[var(--color-surface)] p-6 rounded-xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
+                            >
+                                <h3 className="text-lg font-bold text-white mb-2">AWS Certified Cloud Practitioner</h3>
+                                <p className="text-gray-300 text-sm">
+                                   Certified in AWS cloud fundamentals
+                                </p>
+                            </motion.div>
+                            
+                            <motion.div
+                                whileHover={{ scale: 1.02 }}
+                                transition={{ duration: 0.2 }}
+                                className="bg-[var(--color-surface)] p-6 rounded-xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
+                            >
+                                <h3 className="text-lg font-bold text-white mb-2">Rank 2 Winner — INNOTECH Tech Fest</h3>
+                                <p className="text-gray-300 text-sm">
+                                    Worked on application logic, feature implementation, and project coordination
+                                </p>
+                            </motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.02 }}
                                 transition={{ duration: 0.2 }}
@@ -66,27 +87,8 @@ const Education = () => {
                                 </p>
                             </motion.div>
 
-                            <motion.div
-                                whileHover={{ scale: 1.02 }}
-                                transition={{ duration: 0.2 }}
-                                className="bg-[var(--color-surface)] p-6 rounded-xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
-                            >
-                                <h3 className="text-lg font-bold text-white mb-2">Rank 2 Winner — INNOTECH Tech Fest</h3>
-                                <p className="text-gray-300 text-sm">
-                                    Worked on application logic, feature implementation, and project coordination
-                                </p>
-                            </motion.div>
 
-                             <motion.div
-                                whileHover={{ scale: 1.02 }}
-                                transition={{ duration: 0.2 }}
-                                className="bg-[var(--color-surface)] p-6 rounded-xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
-                            >
-                                <h3 className="text-lg font-bold text-white mb-2">AWS Certified Cloud Practitioner</h3>
-                                <p className="text-gray-300 text-sm">
-                                   Certified in AWS cloud fundamentals
-                                </p>
-                            </motion.div>
+                            
                         </div>
                     </motion.div>
 

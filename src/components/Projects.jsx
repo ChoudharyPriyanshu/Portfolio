@@ -25,7 +25,18 @@ const Projects = () => {
                 github: "https://github.com/ChoudharyPriyanshu/Hackdata",
                 live: "https://medbrain.netlify.app/"
             }
+        },    {
+        title: "Secure Voting System",
+        date: "Feb 2026 – Mar 2026",
+        description: "Full-stack secure voting platform with election deadlines, vote verification using SHA-256 receipt hashing, admin audit logs, and rate limiting to prevent abuse.",
+        tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "bcrypt", "Tailwind"],
+        image: medbrainImg,
+        links: {
+            github: "https://github.com/ChoudharyPriyanshu/Voting_app",
+            live: "https://Will-be-live-soon.com"
         }
+    }
+
     ];
 
     return (
