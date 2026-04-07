@@ -7,41 +7,89 @@ const Education = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
                     {/* Education Column */}
-                    <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <h2 className="text-3xl font-bold text-white mb-10 flex items-center">
-                            <span className="w-2 h-8 bg-[var(--color-accent)] mr-4 rounded-sm"></span>
-                            Education
-                        </h2>
+                   <motion.div
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.6 }}
+>
+    <h2 className="text-3xl font-bold text-white mb-10 flex items-center">
+        <span className="w-2 h-8 bg-[var(--color-accent)] mr-4 rounded-sm"></span>
+        Education
+    </h2>
 
-                        <motion.div
-                            whileHover={{ y: -5 }}
-                            transition={{ duration: 0.2 }}
-                            className="bg-[var(--color-surface)] p-8 rounded-2xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
-                        >
-                            <div className="flex justify-between items-start mb-4">
-                                <div>
-                                    <h3 className="text-xl font-bold text-white">Bachelor of Technology (B.Tech)</h3>
-                                    <p className="text-[var(--color-accent)]">KIET Group Of Institutions, Ghaziabad</p>
-                                </div>
-                                <span className="text-sm text-gray-400 bg-gray-800 px-3 py-1 rounded-full border border-gray-700">
-                                    2023 – 2027
-                                </span>
-                            </div>
-                            <div className="mb-4">
-                                <span className="text-2xl font-bold text-gray-100">8.50</span>
-                                <span className="text-gray-400 text-sm ml-2">CGPA</span>
-                            </div>
-                            <p className="text-gray-300 text-sm leading-relaxed">
-                                <strong className="text-white">Coursework:</strong> Database Management Systems, Operating Systems, Data Structures, Object-Oriented Programming in Java
-                            </p>
-                        </motion.div>
-                    </motion.div>
+    {/* B.Tech */}
+    <motion.div
+        whileHover={{ y: -5 }}
+        transition={{ duration: 0.2 }}
+        className="bg-[var(--color-surface)] p-8 rounded-2xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg mb-6"
+    >
+        <div className="flex justify-between items-start mb-4">
+            <div>
+                <h3 className="text-xl font-bold text-white">Bachelor of Technology (B.Tech)</h3>
+                <p className="text-[var(--color-accent)]">KIET Group Of Institutions, Ghaziabad</p>
+            </div>
+            <span className="text-sm text-gray-400 bg-gray-800 px-3 py-1 rounded-full border border-gray-700">
+                2023 – 2027
+            </span>
+        </div>
+        <div className="mb-4">
+            <span className="text-2xl font-bold text-gray-100">8.50</span>
+            <span className="text-gray-400 text-sm ml-2">CGPA</span>
+        </div>
+        <p className="text-gray-300 text-sm leading-relaxed">
+            <strong className="text-white">Coursework:</strong> DBMS, OS, Data Structures, OOP (Java)
+        </p>
+    </motion.div>
 
+    {/* 12th */}
+    <motion.div
+        whileHover={{ y: -5 }}
+        transition={{ duration: 0.2 }}
+        className="bg-[var(--color-surface)] p-8 rounded-2xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg mb-6"
+    >
+        <div className="flex justify-between items-start mb-4">
+            <div>
+                <h3 className="text-xl font-bold text-white">Senior Secondary (12th)</h3>
+                <p className="text-[var(--color-accent)]">St. Anthony's Sr. Sec. School, Tatarpur, Hapur, UP</p>
+            </div>
+            <span className="text-sm text-gray-400 bg-gray-800 px-3 py-1 rounded-full border border-gray-700">
+                2022 – 2023
+            </span>
+        </div>
+        <div className="mb-4">
+            <span className="text-2xl font-bold text-gray-100">90.80</span>
+            <span className="text-gray-400 text-sm ml-2">Percentage</span>
+        </div>
+        <p className="text-gray-300 text-sm leading-relaxed">
+            <strong className="text-white">Stream:</strong> Science (PCM)
+        </p>
+    </motion.div>
+
+    {/* 10th */}
+    <motion.div
+        whileHover={{ y: -5 }}
+        transition={{ duration: 0.2 }}
+        className="bg-[var(--color-surface)] p-8 rounded-2xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
+    >
+        <div className="flex justify-between items-start mb-4">
+            <div>
+                <h3 className="text-xl font-bold text-white">Secondary (10th)</h3>
+                <p className="text-[var(--color-accent)]">St. Anthony's Sr. Sec. School, Tatarpur, Hapur, UP</p>
+            </div>
+            <span className="text-sm text-gray-400 bg-gray-800 px-3 py-1 rounded-full border border-gray-700">
+                2020 – 2021
+            </span>
+        </div>
+        <div className="mb-4">
+            <span className="text-2xl font-bold text-gray-100">93.80</span>
+            <span className="text-gray-400 text-sm ml-2">Percentage</span>
+        </div>
+        <p className="text-gray-300 text-sm leading-relaxed">
+            Completed with strong academic foundation.
+        </p>
+    </motion.div>
+</motion.div>
                     {/* Certifications & Achievements Column */}
                     <motion.div
                         initial={{ opacity: 0, x: 50 }}
@@ -55,6 +103,16 @@ const Education = () => {
                         </h2>
 
                         <div className="space-y-6">
+                            <motion.div
+                                whileHover={{ scale: 1.02 }}
+                                transition={{ duration: 0.2 }}
+                                className="bg-[var(--color-surface)] p-6 rounded-xl border border-gray-700 hover:border-[var(--color-accent)] transition-all duration-300 shadow-sm hover:shadow-lg"
+                            >
+                                <h3 className="text-lg font-bold text-white mb-2">GATE 2026 Qualified</h3>
+                                <p className="text-gray-300 text-sm">
+                                   Qualified Gate 2026 in CS 
+                                </p>
+                            </motion.div>
                              <motion.div
                                 whileHover={{ scale: 1.02 }}
                                 transition={{ duration: 0.2 }}
