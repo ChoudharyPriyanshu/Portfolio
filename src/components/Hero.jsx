@@ -38,7 +38,7 @@ const Hero = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="/PriyanshuChoudharyResumeLatest (on_Apr_7_2026).pdf"
+                                href="/PriyanshuChoudharyResume(3_May).pdf"
                                 download
                                 className="px-8 py-3 border-2 border-[var(--color-accent)] text-[var(--color-accent)] font-bold rounded-lg hover:bg-[var(--color-accent)]/5 transition-all duration-300 transform hover:-translate-y-1"
                             >
