@@ -5,11 +5,11 @@ const Experience = () => {
         {
             role: "Web Development Intern",
             company: "Oasis Infobyte (AICTE Approved)",
-            duration: "Jun 2025 – Jul 2025",
+            duration: "Jul 2025 – Aug 2025",
             description: [
-                "Built full-stack pizza delivery app with real-time tracking",
-                "Razorpay integration, 95% transaction success rate",
-                "Inventory + low-stock alerts improved efficiency by 50%"
+                "Designed and developed a full-stack Pizza Delivery Web Application using the MERN stack, featuring real-time order tracking and optimizing custom pizza creation speed by 80%.",
+                "Integrated the Razorpay payment gateway with a 95% transaction success rate, ensuring secure and seamless online payments.",
+                "Built an admin dashboard with automated low-stock alerts and inventory management, reducing stock issues by 40% and improving operational efficiency by 50%."
             ]
         },
         {
@@ -17,9 +17,9 @@ const Experience = () => {
             company: "MLSA (KIET)",
             duration: "Oct 2024",
             description: [
-                "Created responsive web app with REST backend",
-                "Improved performance by 25%",
-                "Reduced review cycles by 30% using Git Workflows"
+                "Developed a full-stack web application using the MERN stack, integrating a responsive frontend with a modular backend architecture.",
+"Integrated RESTful APIs and optimized MongoDB schemas using Node.js and Express.js, improving application performance by 25%.",
+"Implemented JWT-based authentication and Role-Based Access Control (RBAC) to ensure secure user access and efficient request handling."
             ]
         }
     ];
