@@ -15,17 +15,17 @@ const Projects = () => {
                 live: "https://trevo-video-calls-chat.onrender.com/login"
             }
         },
-        {
-            title: "MedBrain — Medical Records Platform",
-            date: "Dec 2024 – Jan 2025",
-            description: "Backend development for 500+ users featuring JWT authentication, secure access control, and Cloudinary storage for medical documents.",
-            tech: ["Node.js", "Express", "MongoDB", "Cloudinary", "JWT"],
-            image: medbrainImg,
-            links: {
-                github: "https://github.com/ChoudharyPriyanshu/Hackdata",
-                live: "https://medbrain.netlify.app/"
-            }
-        }, {
+       {
+    title: "School Management API",
+    date: "May 2026",
+    description: "Developed and deployed a RESTful backend API system for managing school records with proximity-based sorting using the Haversine formula and MySQL cloud integration.",
+    tech: ["Node.js", "Express.js", "MySQL", "Railway", "Render", "Postman"],
+    image: schoolManagementImg,
+    links: {
+        github: "https://github.com/ChoudharyPriyanshu/school_management",
+        live: "https://school-management-srwb.onrender.com/"
+    }
+}, {
             title: "Secure Voting System",
             date: "Feb 2026 – Mar 2026",
             description: "Full-stack secure voting platform with election deadlines, vote verification using SHA-256 receipt hashing, admin audit logs, and rate limiting to prevent abuse.",
