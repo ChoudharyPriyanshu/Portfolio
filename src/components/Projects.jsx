@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import trevoImg from '../assets/trevo_project.png';
 import medbrainImg from '../assets/medbrain_project.png';
+import schoolManagementImg from '../assets/school_management_project.png';
 
 const Projects = () => {
     const projects = [
