@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import trevoImg from '../assets/trevo_project.png';
-import medbrainImg from '../assets/medbrain_project.png';
 import schoolManagementImg from '../assets/school_management_project.png';
+import SAKSHAM_Project from '../assets/SAKSHAM_Project.png';
+import VOTOSPHERE_Project from '../assets/VOTOSPHERE_Project.png';
 
 const Projects = () => {
     const projects = [
@@ -27,11 +28,11 @@ const Projects = () => {
         live: "https://school-management-srwb.onrender.com/"
     }
 }, {
-            title: "Secure Voting System",
+            title: "VotoSphere – Online Voting Platform",
             date: "Feb 2026 – Mar 2026",
             description: "Full-stack secure voting platform with election deadlines, vote verification using SHA-256 receipt hashing, admin audit logs, and rate limiting to prevent abuse.",
             tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "bcrypt", "Tailwind"],
-            image: medbrainImg,
+            image: VOTOSPHERE_Project,
             links: {
                 github: "https://github.com/ChoudharyPriyanshu/Voting_app",
                 live: "https://Will-be-live-soon.com"
@@ -42,7 +43,7 @@ const Projects = () => {
             date: "Feb 2026 – Present",
             description: "Building a secure certification platform for Persons with Disabilities (PWDs) with multi-role workflows (applicant, doctor, authority), tamper-resistant record tracking, and ongoing blockchain integration for certificate verification.",
             tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Multer", "Blockchain (in progress)"],
-            image: trevoImg,
+            image: SAKSHAM_Project,
             links: {
                 github: "https://github.com/ChoudharyPriyanshu/disability-certification-and-support-platform",
                 live: "https://Will-be-live-soon.com"
